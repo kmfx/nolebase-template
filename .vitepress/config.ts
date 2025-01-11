@@ -8,7 +8,7 @@ import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-in
 import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
-import { discordLink, githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+import { discordLink, githubRepoLink, siteDescription, siteName, targetDomain, telegramLink } from '../metadata'
 import { creatorNames, creatorUsernames } from './creators'
 import { sidebar } from './docsMetadata.json'
 
@@ -135,11 +135,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
       { icon: 'discord', link: discordLink },
+      { icon: 'telegram', link: telegramLink },
     ],
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
       copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Nólëbase 的创作者们',
+        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 克喵的笔记 的创作者们',
     },
     search: {
       provider: 'local',
