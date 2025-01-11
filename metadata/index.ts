@@ -7,11 +7,11 @@ export const siteDescription = '记录回忆，知识和畅想的地方'
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/nolebase/nolebase'
+export const githubRepoLink = 'https://github.com/Kemiaojun'
 /** Discord */
 export const discordLink = 'https://discord.gg/XuNFDcDZGj'
 /** Telegram */
-export const telegramLink = 'https://t.me/kemiaofx.me'
+export const telegramLink = 'https://t.me/kemiaofx_me'
 
 /** 无协议前缀域名 */
 export const plainTargetDomain = 'nolebase.ayaka.io'

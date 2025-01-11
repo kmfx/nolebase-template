@@ -21,7 +21,7 @@ hero:
       link: https://discord.gg/XuNFDcDZGj
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/nolebase/nolebase
+      link: https://github.com/Kemiaojun
 
 features:
   - title: 多样的主题和内容
