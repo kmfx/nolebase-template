@@ -1,6 +1,6 @@
 ---
 layout: home
-sidebar: false
+sidebar: true
 
 title: 克喵的笔记
 titleTemplate: 记录回忆，知识和畅想的地方
