@@ -9,7 +9,7 @@ export const include = ['笔记', '生活']
 /** Repo */
 export const githubRepoLink = 'https://github.com/Kemiaojun'
 /** Discord */
-export const discordLink = 'https://discord.gg/XuNFDcDZGj'
+export const discordLink = 'https://discord.gg/kemiaofx'
 /** Telegram */
 export const telegramLink = 'https://t.me/kemiaofx_me'
 
